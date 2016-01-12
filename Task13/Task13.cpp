@@ -1,7 +1,6 @@
 // Task13.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <string>
 #include <iostream>
 
@@ -24,7 +23,7 @@ struct Date
 		year = _year;
 	}
 
-	void Print()
+	void Print() const
 	{
 		std::cout << day << "." << month << "." << year << std::endl;
 	}
